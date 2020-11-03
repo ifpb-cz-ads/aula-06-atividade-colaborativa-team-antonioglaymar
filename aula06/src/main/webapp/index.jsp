@@ -7,8 +7,9 @@
     </form>
     <hr/>
     <form action="login" method="POST">
-        <input name= "userName" placeholder="Login">
-        <input name="UserPass" placeholder="Pass">
+        <input name= "userName" type="text" placeholder="Login">
+        <input name="UserPass" type="text" placeholder="Pass">
+        <input type="submit" value="Entrar"/>
     </form>
 
 </body>
