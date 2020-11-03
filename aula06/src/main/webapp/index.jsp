@@ -1,5 +1,8 @@
 <html>
-<body>
-<h2>Hello World!</h2>
-</body>
+    <body>
+        <form action="produtoById" method="POST">
+            <input type="number" name="id" placeholder="Id do produto"/>
+            <input type="submit" value="Buscar"/>
+        </form>
+    </body>
 </html>
